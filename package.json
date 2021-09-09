@@ -12,10 +12,6 @@
     "test": "test",
     "build": "tsc"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jessekrubin/jsonderulo.git"
-  },
   "keywords": [
     "json"
   ],
