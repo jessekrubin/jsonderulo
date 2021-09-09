@@ -47,5 +47,5 @@ js:
 
 ## TODO
 
- [] polyfill/patch json module fn
- [] Add support for 'DJ Khaled'
+- [ ] Add support for 'DJ Khaled'
+- [ ] polyfill/patch json/JSON module fn
