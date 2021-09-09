@@ -16,6 +16,8 @@ poetry add jsonderulo
 
 ## Usage:
 
+python: 
+
 ```python
 >>> from jsonderulo import dumps, loads, load, dump
 >>> dumps({"jason": 'derulo'})  # dicts
@@ -26,6 +28,17 @@ poetry add jsonderulo
 {'jason': 'derulo', 'something': 'othergthing'}
 ```
 
+js:
+
+```javascript
+> const jsonderulo = require('.')
+> jsonderulo.stringify({hello: "jason"})
+'{"jason":"derulo","hello":"jason"}'
+> jsonderulo.stringify({hello: "jason", jason: "derulo"})
+'{"jason":"derulo","hello":"jason"}'
+> jsonderulo.parse(JSON.stringify({no: "jason"}))
+{ jason: 'derulo', no: 'jason' }
+```
 
 ## TODO
 

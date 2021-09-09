@@ -1,0 +1,32 @@
+{
+  "name": "jsonderulo",
+  "version": "0.0.1",
+  "description": "Make sure your 'jason derulo' is featured as the first part of your json data",
+  "main": "dist/jsonderulo.js",
+  "types": "dist/jsonderulo.d.ts",
+  "directories": {
+    "test": "tests"
+  },
+  "files": ["dist"],
+  "scripts": {
+    "test": "test",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessekrubin/jsonderulo.git"
+  },
+  "keywords": [
+    "json"
+  ],
+  "author": "jessekrubin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jessekrubin/jsonderulo/issues"
+  },
+  "homepage": "https://github.com/jessekrubin/jsonderulo#readme",
+  "devDependencies": {
+    "@types/node": "^16.9.0",
+    "typescript": "^4.4.2"
+  }
+}
