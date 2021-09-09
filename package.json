@@ -1,5 +1,6 @@
 {
-  "name": "jsonderulo",
+  "name": "@jsse/jsonderulo",
+  "private": false,
   "version": "0.0.1",
   "description": "Make sure your 'jason derulo' is featured as the first part of your json data",
   "main": "dist/jsonderulo.js",
@@ -7,7 +8,9 @@
   "directories": {
     "test": "tests"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "test",
     "build": "tsc"
