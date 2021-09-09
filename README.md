@@ -10,8 +10,13 @@ Make sure your 'jason derulo' is featured as the first part of your json data
 ## Install:
 
 ```
+# python
 pip install jsonderulo
 poetry add jsonderulo 
+
+# not python
+npm install --save @jsse/jsonderulo
+yarn add @jsse/jsonderulo
 ```
 
 ## Usage:
