@@ -2,6 +2,11 @@
 
 Make sure your json data features 'jason derulo'
 
+[![Wheel](https://img.shields.io/pypi/wheel/jsonderulo.svg)](https://img.shields.io/pypi/wheel/jsonderulo.svg)
+[![Version](https://img.shields.io/pypi/v/jsonderulo.svg)](https://img.shields.io/pypi/v/jsonderulo.svg)
+[![py_versions](https://img.shields.io/pypi/pyversions/jsonderulo.svg)](https://img.shields.io/pypi/pyversions/jsonderulo.svg)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 ## Install:
 
 ```
@@ -20,3 +25,9 @@ poetry add jsonderulo
 >>> loads(dumps({"something": 'othergthing'}))
 {'jason': 'derulo', 'something': 'othergthing'}
 ```
+
+
+## TODO
+
+ [] polyfill/patch json module fn
+ [] Add support for 'DJ Khaled'
