@@ -1,6 +1,6 @@
 # jsonderulo
 
-Make sure your json data features 'jason derulo'
+Make sure your 'jason derulo' is featured as the first part of your json data
 
 [![Wheel](https://img.shields.io/pypi/wheel/jsonderulo.svg)](https://img.shields.io/pypi/wheel/jsonderulo.svg)
 [![Version](https://img.shields.io/pypi/v/jsonderulo.svg)](https://img.shields.io/pypi/v/jsonderulo.svg)
